@@ -1,0 +1,57 @@
+
+
+body {                              /*Background color for the body*/
+    background-color: #d9dcd6;
+}
+
+.header {                           /*Styling for the header*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {                        /*Sets font and position for the Horiseon header*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+
+.header nav {                       /*Styling for the navigation*/                                            /* Changed div to nav*/                    
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+    
+
+
+.header nav ul li {                           /*Positions the navigation menu*/          /* Changed div to nav*/ 
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {                                            /*Sets hyperlink color*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
