@@ -37,7 +37,50 @@ body {                              /*Background color for the body*/
 a {                                            /*Sets hyperlink color*/
     color: #ffffff;
     text-decoration: none;
+    display:inline-block;
 }
+
+.footer a{
+    display:inline-block
+}
+
+.Image1, .Image2 {
+    display:flex;
+    flex-direction: column;
+    max-width:40em;
+    max-height: 40em;
+    
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+}
+
+.Image {
+    display: flex;
+    max-width: 1307px;
+}
+
+.Image1:hover, .Image2:hover, .Image:hover {
+  box-shadow: inset 0px 0px 8px
+  rgba(232, 102, 236, 1), 0 0 15px
+  rgba(232, 102, 236, 1);
+}
+
+
 
 
 
