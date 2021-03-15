@@ -1,24 +1,28 @@
 
 
 body {                              /*Background color for the body*/
-    background-color: #d9dcd6;
+    background-color: #358597;
 }
 
 .header {                           /*Styling for the header*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #F4A896;
     color: #ffffff;
 }
 
-.header h1 {                        /*Sets font and position for the Horiseon header*/
+h1 {                                /*Styling for the section headers*/
+    color: #ffffff;
+}
+
+.header h1 {                        /*Sets font and position for the header*/
     display: inline-block;
     font-size: 48px;
 }
 
 
 
-.header nav {                       /*Styling for the navigation*/                                            /* Changed div to nav*/                    
+.header nav {                       /*Styling for the navigation*/                                                          
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,7 +33,7 @@ body {                              /*Background color for the body*/
     
 
 
-.header nav ul li {                           /*Positions the navigation menu*/          /* Changed div to nav*/ 
+.header nav ul li {                           /*Positions the navigation menu*/         
     display: inline-block;
     margin-left: 25px;
 }
@@ -40,20 +44,17 @@ a {                                            /*Sets hyperlink color*/
     display:inline-block;
 }
 
-.footer a{
-    display:inline-block
-}
-
-.Image1, .Image2 {
+.Image1, .Image2 {                          /*Positions the stock images*/   
     display:flex;
     flex-direction: column;
     max-width:40em;
     max-height: 40em;
+    margin: 5px;
     
 
 }
 
-.row {
+.row {                                      /*Used to position the  4 smaller stock images*/   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -61,7 +62,7 @@ a {                                            /*Sets hyperlink color*/
 
 }
 
-.column {
+.column {                                   /*Used to position the  4 smaller stock images*/  
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -69,18 +70,28 @@ a {                                            /*Sets hyperlink color*/
 
 }
 
-.Image {
+.Image {                                    /*Used to position the larger stock image*/  
     display: flex;
     max-width: 1307px;
+    margin: 10px;
 }
 
-.Image1:hover, .Image2:hover, .Image:hover {
+.Image1:hover, .Image2:hover, .Image:hover {        /*Adds glow on hover to the stock images*/
   box-shadow: inset 0px 0px 8px
   rgba(232, 102, 236, 1), 0 0 15px
   rgba(232, 102, 236, 1);
 }
 
 
+.footerlinks {                                      /*Styling for the links at the bottom of the page*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F4A896;
+    color: #ffffff;
+}
 
 
 
