@@ -8,30 +8,29 @@
     <body>
             <header class="header">             <!--Header section w/ navigation bar and links-->
             <h1>Rory Donaldson</h1>
+            <img class="profilepic" src="C:\Users\ajden\OneDrive\Desktop\PortProj\WIN_20210209_19_14_56_Pro.jpg" alt="Profile Picture of Rory Donaldson"> <!--Profile pic-->
             <nav>
                 <ul>
                     <li>
-                        <a href="">About Me</a>
+                        <a href="#AboutMe">About Me</a>         <!--Nav bar-->
                     </li>
                     <li>
-                        <a href="">Work</a>
+                        <a href="#Work">Work</a>
                     </li>
                     <li>
-                        <a href="">Contact Me</a>
+                        <a href="#ContactMe">Contact Me</a>
                     </li>
-                    <li>
-                        <a href="">Resume</a>
-                    </li>
+                   
                 </ul>
             </nav>
             </header>
            
            
-             <section>
+             <section id="#AboutMe">
                  <h1>About Me</h1>                      <!--About me section-->
 
 
-                <p>Street style Thai basil tacos Thai basil curry tabasco pepper oranges sesame soba noodles mediterranean vegetables 
+                <p>Street style Thai basil tacos Thai basil curry tabasco pepper oranges sesame soba noodles mediterranean vegetables               <!--Stock text as there is nothing interesting about me...yet-->
                     chili cashew salted sparkling pomegranate punch potato almond milk Thai dragon pepper sweet potato. 
                     Banana lemon hemp seeds frosted gingerbread bites lemongrass pineapple salsa cherry bomb açai butternut mix onion tahini 
                     drizzle Italian linguine puttanesca morning smoothie bowl asian pear miso dressing seasonal cilantro homemade balsamic 
@@ -47,24 +46,27 @@
              </section>
                 
 
-             <section class="stockimg">                     <!--Work section, filled with stock images as I have no projects to link to-->
+             <section id="Work" class="stockimg">                     <!--Work section, filled with stock images as I have no projects to link to. There are <a> elements that will link to the project once it exists. Div class="container" is there to allow for the app labels in the bottom right of the images-->
                  <h1>Work</h1>
 
                  
-        
-                    <img class="Image" src="C:\Users\ajden\OneDrive\Desktop\eric-prouzet-a0v6rhY2-Gw-unsplash.jpg" alt="Stock image 1">
-               
+                <div class="container">
+                    <a href=""><img class="Image" src="C:\Users\ajden\OneDrive\Desktop\PortProj\eric-prouzet-a0v6rhY2-Gw-unsplash.jpg" alt="Stock image 1"></a>
+                    <div class="imgtext">App #1</div>
+                </div>
                  
                  
                 <div class="row">
                     <div class="column">  
-                            <div class="Image1">
-                                <img src="C:\Users\ajden\OneDrive\Desktop\bantersnaps-BlOQMEtYKjk-unsplash.jpg" alt="Stock image 2">
+                            <div class="container">
+                                <a href=""><img class="Image1" src="C:\Users\ajden\OneDrive\Desktop\PortProj\bantersnaps-BlOQMEtYKjk-unsplash.jpg" alt="Stock image 2"></a>
+                                <div class="imgtext">App #2</div>
                             </div>
                     </div> 
                     <div class="column">
-                            <div class="Image2">
-                                <img src="C:\Users\ajden\OneDrive\Desktop\eddy-lee-I-UDqEUK_z0-unsplash.jpg" alt="Stock image 3">
+                            <div class="container">
+                                <a href=""><img class="Image2" src="C:\Users\ajden\OneDrive\Desktop\PortProj\eddy-lee-I-UDqEUK_z0-unsplash.jpg" alt="Stock image 3"></a>
+                                <div class="imgtext">App #3</div>
                             </div>
                     </div> 
                 </div> 
@@ -72,13 +74,15 @@
                  
                 <div class="row">
                     <div class="column">  
-                            <div class="Image1">
-                                <img src="C:\Users\ajden\OneDrive\Desktop\clay-banks-TQYTWfN1b7M-unsplash.jpg" alt="Stock image 4">
+                            <div class="container">
+                                <a href=""><img class="Image1" src="C:\Users\ajden\OneDrive\Desktop\PortProj\clay-banks-TQYTWfN1b7M-unsplash.jpg" alt="Stock image 4"></a>
+                                <div class=imgtext>App #4</div>
                             </div>
                     </div> 
                     <div class="column">
-                            <div class="Image2">
-                                <img src="C:\Users\ajden\OneDrive\Desktop\nick-hillier-O6hZIDm4dW4-unsplash.jpg" alt="Stock image 5">
+                            <div class="container">
+                                <a href=""><img class="Image2" src="C:\Users\ajden\OneDrive\Desktop\PortProj\nick-hillier-O6hZIDm4dW4-unsplash.jpg" alt="Stock image 5"></a>
+                                <div class="imgtext">App #5</div>
                             </div>
                     </div> 
                 </div>  
@@ -97,12 +101,12 @@
 
 
         <footer>                                            <!--Contact info links-->
-            <div class="footerlinks">
+            <div id="ContactMe" class="footerlinks">
                 
-                    <a href="">Phone Number</a> 
-                    <a href="">Email</a>
-                    <a href="">Github</a>
-                    <a href="">LinkedIn</a>
+                    <a href="https://twitter.com/RoryDonaldson19">Twitter</a> 
+                    <a href = "mailto: rory.donaldson14@gmail.com">Send Email</a>
+                    <a href="https://github.com/rorylkd">Github</a>
+                    <a href="https://www.linkedin.com/in/rory-donaldson-98ba9593/">LinkedIn</a>
             
             </div>
         </footer>

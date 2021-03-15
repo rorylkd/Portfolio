@@ -6,9 +6,12 @@ body {                              /*Background color for the body*/
 
 .header {                           /*Styling for the header*/
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #F4A896;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: tan;
     color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
 }
 
 h1 {                                /*Styling for the section headers*/
@@ -20,13 +23,26 @@ h1 {                                /*Styling for the section headers*/
     font-size: 48px;
 }
 
+.profilepic {                       /*Styling for profile pic*/
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 150px;
+    border-style: groove;
+    border-width: 15px;
+
+}
+
+p {                                 /*Text color in the about me section*/
+    color: #ffffff
+}
+
 
 
 .header nav {                       /*Styling for the navigation*/                                                          
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
 }
 
@@ -42,6 +58,25 @@ a {                                            /*Sets hyperlink color*/
     color: #ffffff;
     text-decoration: none;
     display:inline-block;
+}
+
+.imgtext {                              /*Text boxes on images*/
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    font-size: 30px;
+    background-color: white;
+    color: #358597;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-style: groove;
+    border-width: 20px;
+
+}
+
+.container {                        /**/
+   position: relative; 
+   text-align: center;
+   color: white;
 }
 
 .Image1, .Image2 {                          /*Positions the stock images*/   
@@ -78,8 +113,8 @@ a {                                            /*Sets hyperlink color*/
 
 .Image1:hover, .Image2:hover, .Image:hover {        /*Adds glow on hover to the stock images*/
   box-shadow: inset 0px 0px 8px
-  rgba(232, 102, 236, 1), 0 0 15px
-  rgba(232, 102, 236, 1);
+  #ffffff, 0 0 15px
+ #ffffff;
 }
 
 
@@ -89,8 +124,11 @@ a {                                            /*Sets hyperlink color*/
     justify-content: space-around;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #F4A896;
+    background-color: tan;
     color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
 }
 
 
